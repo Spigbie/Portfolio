@@ -1,0 +1,171 @@
+*{
+	margin: 0;
+	padding: 0;
+	font-family: "Zain", sans-serif;
+}
+body {
+	background: #262729;
+	padding: 20px;
+}
+h1{
+	color: white;
+	font-size: 78px;
+}
+
+h2 {
+ 	color: #dbdae1;
+ 	font-size: 38px;
+}
+
+h3 {
+	color: #c5c3cd;
+	font-size: 24px;
+}
+
+h4{
+	color: #c5c3cd;
+	font-size: 18px;
+}
+
+p{
+	color: #a6a4af;
+	font-size: 16px;
+}
+
+a{
+	color: #c5c3cd;;
+}
+
+img{
+	display: block;
+}
+header{
+	height: 500px;
+	display: flex;
+	border-bottom: 4px solid black;
+	background-image: url('Images/Personal Art/swamp.png');
+	background-size: 100%;
+	min-width: 1000px;
+	background-position-y: 57%;
+	background-repeat: no-repeat;
+	align-items: flex-end;
+
+}
+header h1{
+	margin-left: 40px;
+	text-shadow: 2px 5px 8px rgba(0, 0, 0, 0.8);
+}
+
+main{
+	display: grid;
+	gap: 20px;
+	grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+main > div{
+	padding: 20px;
+}
+
+#gallery{
+	grid-column: span 3;
+	grid-row: span 5;
+	gap: 20px;
+	display: flex;
+	flex-direction: column;
+	border-left: 4px solid black;
+}
+
+#gallery p{
+	margin-bottom: 10px;
+}
+
+#gallery a{
+	text-decoration: none;
+}
+
+.img-conatiner{
+	display: flex;
+	gap: 20px;
+	flex-wrap: wrap;
+	border-bottom: 2px solid black;
+	padding-bottom: 20px;
+}
+
+.img-conatiner > a > div, .short{
+	box-shadow: 2px 5px 7px rgba(0, 0, 0, 0.8);
+	padding: 10px;
+	background: #505057;
+}
+
+.img-conatiner > a > div > div, .short > div{
+ 	height: 300px;
+ 	display: flex;
+ 	align-items: center;
+ 	justify-content: center;
+ 	margin-bottom: 10px;
+
+}
+
+.img-conatiner  img{
+ 	max-height: 300px;
+
+}
+
+.img-conatiner p{
+}
+
+#about-me{
+	grid-column: span 1;
+	grid-row: span 1;
+	grid-column-start: 1;
+	grid-row-start: 4;
+}
+
+#work-experince{;
+	grid-column: span 1;
+	grid-row: span 1;
+	grid-column-start: 1;
+	grid-row-start: 1;
+	border-bottom: 2px solid black;
+	display: flex;
+	flex-direction: column;
+	gap: 20px;
+}
+
+#skills{
+	grid-column: span 1;
+	grid-row: span 1;
+	grid-column-start: 1;
+	grid-row-start: 2;
+	border-bottom: 2px solid black;
+	display: flex;
+	flex-direction: column;
+	gap: 20px;
+}
+
+li{
+	margin-left: 30px;
+}
+::marker{
+	color: #c5c3cd;
+}
+
+b {
+	color: #c5c3cd;
+}
+
+#skills > div{
+	display: flex;
+	flex-direction: column;
+	gap: 20px;
+}
+
+#education{
+	grid-column: span 1;
+	grid-row: span 1;
+	grid-column-start: 1;
+	grid-row-start: 3;
+	border-bottom: 2px solid black;
+	display: flex;
+	flex-direction: column;
+	gap: 20px;
+}
